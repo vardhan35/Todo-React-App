@@ -1,13 +1,78 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  background-color: #1a1a2e;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App{
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 60%;
+  max-width: 600px;
+  background-color: #162E3E;
+}
+h1{
+  text-align: center;
+  color: #E94560;
+  padding: 0.5em;
+  margin: 0.5em auto;
+}
+
+.main{
+  border-radius: 5em;
+}
+.input{
+  background-color: #162E3E;
+  width: 100%;
+  margin: 1em auto 0 auto;
+  align-items: center;
+  text-align: center;
+}
+input{
+  background-color: white;
+  border-radius: 0.25em;
+  border: none;
+  width: 80%;
+  padding: 0.5em;
+  max-width: 300px;
+  margin: 0.25em auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+input:focus{
+  outline: none;
+}
+.btnadd{
+  background-color: #E94560;
+  border-radius:0.25em;
+  border: none;
+  padding: 0.5em;
+  margin:1em auto;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.btn-add:focus:active{
+  outline: none;
+}
+.btn-delete{
+  background-color: #E94560;
+  padding: 0.5em;
+  margin: 0 0.5em;
+  border: none;
+  border-radius: 0.25em;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.list{
+  color: white;
+  background-color: #162E3E;
+  display: flex;
+  justify-content: space-between;
+  margin:0 auto;
+  padding: 1em;
+}
+.list h2{
+  background-color: #162E3E;
 }
